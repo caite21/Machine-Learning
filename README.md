@@ -3,8 +3,8 @@
 Welcome to the Machine Learning Models Portfolio repository! This repository is a collection of diverse machine learning projects, each showcasing a unique application of algorithms and methodologies. The projects demonstrate both foundational and advanced machine learning techniques implemented in Python.
 
 ## Repository Overview
-  - Convolutional Neural Network (CNN): [Convolutional Neural Network for CIFAR-10 Dataset](https://github.com/caite21/Machine-Learning/edit/main/README.md#convolutional-neural-network-for-cifar-10-dataset)
-  - Linear Regression and Logistic Regression: [Housing Price Regression Model](https://github.com/caite21/Machine-Learning/edit/main/README.md#housing-price-regression-model)
+  - Convolutional Neural Network (CNN): [Convolutional Neural Network for CIFAR-10 Dataset](https://github.com/caite21/Machine-Learning/tree/main?tab=readme-ov-file#convolutional-neural-network-for-cifar-10-dataset)
+  - Linear Regression and Logistic Regression: [Housing Price Regression Model](https://github.com/caite21/Machine-Learning/tree/main?tab=readme-ov-file#housing-price-regression-model)
   - Decision Trees and Random Forest: [Poisonous_Mushroom_Decision_Trees](https://github.com/caite21/Machine-Learning/blob/main/Poisonous_Mushroom_Decision_Trees.ipynb)
   - Neural Network: [Wine_MLP](https://github.com/caite21/Machine-Learning/blob/main/MLP_with_backprop.py)
   - K-Nearest Neighbors (kNN): [kNN_Cancer_Classifier](https://github.com/caite21/Machine-Learning/blob/main/kNN_cancer_classifier.py)
