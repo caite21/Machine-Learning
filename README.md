@@ -3,20 +3,17 @@
 Welcome to the Machine Learning Models Portfolio repository! This repository is a collection of diverse machine learning projects, each showcasing a unique application of algorithms and methodologies. The projects demonstrate both foundational and advanced machine learning techniques implemented in Python.
 
 ## Repository Overview
-- Deep Learning using TensorFlow:
   - Convolutional Neural Network (CNN): [Convolutional Neural Network for CIFAR-10 Dataset](https://github.com/caite21/Machine-Learning/edit/main/README.md#convolutional-neural-network-for-cifar-10-dataset)
-  - Neural Network: [Wine_MLP](https://github.com/caite21/Machine-Learning/blob/main/MLP_with_backprop.py)
-
-- Classical Machine Learning using Scikit-learn:
-  - Linear Regression and Logistic Regression: [House_Price_Regression](https://github.com/caite21/Machine-Learning/blob/main/House_Price_Regression.ipynb)
+  - Linear Regression and Logistic Regression: [Housing Price Regression Model](https://github.com/caite21/Machine-Learning/edit/main/README.md#housing-price-regression-model)
   - Decision Trees and Random Forest: [Poisonous_Mushroom_Decision_Trees](https://github.com/caite21/Machine-Learning/blob/main/Poisonous_Mushroom_Decision_Trees.ipynb)
+  - Neural Network: [Wine_MLP](https://github.com/caite21/Machine-Learning/blob/main/MLP_with_backprop.py)
   - K-Nearest Neighbors (kNN): [kNN_Cancer_Classifier](https://github.com/caite21/Machine-Learning/blob/main/kNN_cancer_classifier.py)
   - Fuzzy Logic: [Tip_Decision_Fuzzy_Logic](https://github.com/caite21/Machine-Learning/blob/main/tip_decision_fuzzy_logic.py)
 
+For another CNN for meteor detection and working with OpenCV, see [Autonomous-Meteor-Detection Repo](https://github.com/caite21/Autonomous-Meteor-Detection)
 
-## Details
 
-### Convolutional Neural Network for CIFAR-10 Dataset
+## Convolutional Neural Network for CIFAR-10 Dataset
 
 [📁 CNN_CIFAR10](https://github.com/caite21/Machine-Learning/blob/main/CNN_CIFAR10.ipynb)
 
@@ -42,6 +39,27 @@ A sample 32x32 image of an automobile was correctly classified as an automobile.
 
 **Example 2:**
 A 32x32 image of a horse was incorrectly classified as a deer, with "horse" as the second most likely prediction. The model confidently ruled out unrelated categories like "automobile." While not perfect, the prediction was reasonably close, highlighting areas for improvement in the model's accuracy.
+
+
+
+## Housing Price Regression Model
+
+[📁 House_Price_Regression](https://github.com/caite21/Machine-Learning/blob/main/House_Price_Regression.ipynb)
+
+This project analyzes a housing dataset by preprocessing categorical data with one-hot encoding, dropping uncorrelated features, and fitting a linear regression model that achieves an R-squared value of 0.86. It further explores price classification by creating two categories: above or below $175,000, and applies a logistic regression model, reaching an F1 score of 0.93.
+
+![price_linear_regression](https://github.com/user-attachments/assets/9d96bcc5-4d50-4b32-8048-4cd3a13d863b)
+
+Scatter plot comparing actual vs. predicted house prices from the linear regression model. The red dashed line represents a perfect prediction (where predicted prices equal actual prices), highlighting the model's performance in predicting house prices with an R-squared value of 0.86.
+
+![price_logistic_regression](https://github.com/user-attachments/assets/64ea060b-7924-4a89-b9b5-8aa809878fac)
+
+Visualizes the distribution of house prices in the dataset and illustrates how the logistic regression model classifies prices as either above or below $175,000.
+
+![price_logistic_matrix](https://github.com/user-attachments/assets/2b838307-c458-414a-a820-bebca9705f3d)
+
+Confusion matrix showing the logistic regression model's performance in classifying house prices as above $175,000 (1) or below $175,000 (0), with an F1 score of 0.93.
+
 
 
 
