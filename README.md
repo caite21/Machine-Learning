@@ -5,12 +5,12 @@ Welcome to the Machine Learning Models Portfolio repository! This repository is 
 ## Repository Overview
   - Convolutional Neural Network (CNN): [Convolutional Neural Network for CIFAR-10 Dataset](https://github.com/caite21/Machine-Learning/tree/main?tab=readme-ov-file#convolutional-neural-network-for-cifar-10-dataset)
   - Linear Regression and Logistic Regression: [Housing Price Regression Model](https://github.com/caite21/Machine-Learning/tree/main?tab=readme-ov-file#housing-price-regression-model)
-  - Decision Trees and Random Forest: [Poisonous_Mushroom_Decision_Trees](https://github.com/caite21/Machine-Learning/blob/main/Poisonous_Mushroom_Decision_Trees.ipynb)
+  - Decision Trees and Random Forest: [Poisonous Mushrooms Decision Trees](https://github.com/caite21/Machine-Learning/tree/main?tab=readme-ov-file#poisonous-mushrooms-decision-trees)
   - Neural Network: [Wine_MLP](https://github.com/caite21/Machine-Learning/blob/main/MLP_with_backprop.py)
   - K-Nearest Neighbors (kNN): [kNN_Cancer_Classifier](https://github.com/caite21/Machine-Learning/blob/main/kNN_cancer_classifier.py)
   - Fuzzy Logic: [Tip_Decision_Fuzzy_Logic](https://github.com/caite21/Machine-Learning/blob/main/tip_decision_fuzzy_logic.py)
 
-For another CNN for meteor detection and working with OpenCV, see [Autonomous-Meteor-Detection Repo](https://github.com/caite21/Autonomous-Meteor-Detection)
+For another CNN for meteor detection and working with OpenCV, see [Autonomous-Meteor-Detection](https://github.com/caite21/Autonomous-Meteor-Detection)
 
 
 ## Convolutional Neural Network for CIFAR-10 Dataset
@@ -59,6 +59,17 @@ Visualizes the distribution of house prices in the dataset and illustrates how t
 ![price_logistic_matrix](https://github.com/user-attachments/assets/2b838307-c458-414a-a820-bebca9705f3d)
 
 Confusion matrix showing the logistic regression model's performance in classifying house prices as above $175,000 (1) or below $175,000 (0), with an F1 score of 0.93.
+
+
+## Poisonous Mushrooms Decision Trees 
+
+[📁 Poisonous_Mushroom_Decision_Trees](https://github.com/caite21/Machine-Learning/blob/main/Poisonous_Mushroom_Decision_Trees.ipynb)
+
+This Jupyter Notebook compares three decision tree models—Gini index, Entropy, and Random Forest—to classify mushrooms as edible or poisonous. Each model is tuned for optimal hyperparameters, achieving 100% accuracy. Cross-validation results are also included to assess model performance.
+
+![mushroom_decision_tree](https://github.com/user-attachments/assets/fcdeac78-6f5a-49d8-80d8-a099c6f5d437)
+
+Decision tree visualization for classifying mushrooms as poisonous or edible based on their characteristics, using entropy as the splitting criterion and achieving 100% accuracy.
 
 
 
